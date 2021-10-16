@@ -29,7 +29,7 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col-md-4 col-xl-2 mt-4">
-                    <a type="button" data-toggle="modal" data-target="#reserveModal" role="button"
+                    <a type="button" id="reserveButton" role="button"
                         class="btn btn-lg btn-info text-nowrap">Reserve Campsite</a>
                 </div>
             </div>
@@ -39,7 +39,7 @@
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header bg-info text-white">
+                <div class="modal-header">
                     <h3 class="modal-title">Reserve a Campsite</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -93,7 +93,7 @@
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" alt="Nucamp Small Logo" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -108,7 +108,7 @@
                                 class="fa fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" id="loginButton">
                         <i class="fa fa-sign-in"></i> Login
                     </a>
                 </span>
@@ -214,7 +214,7 @@
             </div>
             <div class="col">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg
+                    <img class="d-flex mr-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg"
                         alt="Breadcrumb Trail" />
                     <div class="media-body align-self-center">
                         <h3>Our Campsites</h3>
